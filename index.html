@@ -1182,20 +1182,8 @@
 
    <div class="tabs-scroll">
 <button class="tab active" data-cat="all">All Items</button>
-<button class="tab" data-cat="BURGER">Burgers</button>
-<button class="tab" data-cat="SANDWICH">Sandwiches</button>
-<button class="tab" data-cat="MOMOS FRIED">Fried Momos</button>
-<button class="tab" data-cat="MOMOS STEAM">Steam Momos</button>
-<button class="tab" data-cat="PIZZA">Pizzas</button>
-<button class="tab" data-cat="MAGGI & PASTA">Maggi & Pasta</button>
-<button class="tab" data-cat="FRIES & ROLLS">Fries & Rolls</button>
-<button class="tab" data-cat="BROWNIES">Brownies</button>
-<button class="tab" data-cat="NOODLES & RICE">Noodles & Rice</button>
-<button class="tab" data-cat="SHAKES & COFFEE">Shakes & Coffee</button>
-<button class="tab" data-cat="DOSA">Dosa & South Indian</button>
-<button class="tab" data-cat="ROLL">Rolls Special</button>
-<button class="tab" data-cat="DESSERTS">Desserts</button>
-<button class="tab" data-cat="BEVERAGES">Drinks</button>
+<button class="tab active" data-cat="स्टार्टर">Starter Menu</button>
+<button class="tab" data-cat="स्पेशल पंजाबी डिशेस">Special Punjabi Dishes</button>      
 
                     </div>
                     
@@ -1345,187 +1333,64 @@
         [
   { "id": 1, "cat": "BURGER", "name": "Plane burger", "price": "100.00 RS", "desc": "Classic vegetable patty burger", "tags": ["Veg"], "img": "img/plane_burger.jpg" },
   { "id": 2, "cat": "BURGER", "name": "Veg chiz burger", "price": "120.00 RS", "desc": "Burger with fresh veggies and cheese", "tags": ["Veg"], "img": "img/veg_cheese_burger.jpg" },
-  { "id": 3, "cat": "BURGER", "name": "Con chiz burger", "price": "120.00 RS", "desc": "Sweet corn and cheese filled burger", "tags": ["Veg"], "img": "img/corn_cheese_burger.jpg" },
   { "id": 4, "cat": "BURGER", "name": "Paneer burger", "price": "140.00 RS", "desc": "Burger with a thick paneer patty", "tags": ["Veg"], "img": "img/paneer_burger.jpg" },
-  { "id": 5, "cat": "BURGER", "name": "Chicken burger", "price": "150.00 RS", "desc": "Juicy chicken patty burger", "tags": ["Non-Veg"], "img": "img/chicken_burger.jpg" },
 
   { "id": 6, "cat": "SANDWICH", "name": "Plane sandwich", "price": "80.00 RS", "desc": "Simple vegetable sandwich", "tags": ["Veg"], "img": "img/plane_sandwich.jpg" },
   { "id": 7, "cat": "SANDWICH", "name": "Veg chiz sandwich", "price": "100.00 RS", "desc": "Vegetable sandwich with creamy cheese", "tags": ["Veg"], "img": "img/veg_cheese_sandwich.jpg" },
   { "id": 8, "cat": "SANDWICH", "name": "Greel sandwich", "price": "110.00 RS", "desc": "Perfectly toasted grilled sandwich", "tags": ["Veg"], "img": "img/grill_sandwich.jpg" },
-  { "id": 9, "cat": "SANDWICH", "name": "Chicken plane sandwich", "price": "130.00 RS", "desc": "Simple chicken breast sandwich", "tags": ["Non-Veg"], "img": "img/chicken_plane_sandwich.jpg" },
-  { "id": 10, "cat": "SANDWICH", "name": "Chicken chiz sandwich", "price": "150.00 RS", "desc": "Chicken sandwich with melted cheese", "tags": ["Non-Veg"], "img": "img/chicken_cheese_sandwich.jpg" },
-  { "id": 291, "cat": "SANDWICH", "name": "Corn Cheese Sandwich", "price": "120 RS", "desc": "Grilled sandwich stuffed with sweet corn and melted cheese", "tags": ["Veg"], "img": "img/corn_cheese_sandwich.jpeg" },
+ 
+  { "id": 1, "cat": "स्टार्टर", "name": "रोस्ट पापड / Roast Papad", "price": "15 RS", "desc": "Crispy roasted lentil cracker", "tags": ["Veg"], "img": "img/roast_papad.jpeg" },
+  { "id": 2, "cat": "स्टार्टर", "name": "फ्राय पापड / Fry Papad", "price": "25 RS", "desc": "Deep fried crispy papadum", "tags": ["Veg"], "img": "img/fry_papad.jpeg" },
+  { "id": 3, "cat": "स्टार्टर", "name": "मसाला पापड / Masala Papad", "price": "35 RS", "desc": "Papad topped with spiced onions and tomatoes", "tags": ["Veg"], "img": "img/masala_papad.jpeg" },
+  { "id": 4, "cat": "स्टार्टर", "name": "ऑनियन पापड / Onion Papad", "price": "99 RS", "desc": "Crispy papad with generous onion topping", "tags": ["Veg"], "img": "img/onion_papad.jpeg" },
+  { "id": 5, "cat": "स्टार्टर", "name": "पनीर पकोडा / Paneer Pakoda", "price": "150 RS", "desc": "Spiced cottage cheese fritters", "tags": ["Veg"], "img": "img/paneer_pakoda.jpeg" },
+  { "id": 6, "cat": "स्टार्टर", "name": "फिंगर चिप्स / Finger Chips", "price": "70 RS", "desc": "Golden crispy potato fries", "tags": ["Veg"], "img": "img/finger_chips.jpeg" },
+  { "id": 7, "cat": "स्टार्टर", "name": "प्लेन फिंगर चिप्स / Plain Finger Chips", "price": "60 RS", "desc": "Simple salted potato fries", "tags": ["Veg"], "img": "img/plain_finger_chips.jpeg" },
+  { "id": 8, "cat": "स्टार्टर", "name": "मिक्स व्हेज / Mix Veg", "price": "110 RS", "desc": "Assorted vegetable starter", "tags": ["Veg"], "img": "img/mix_veg_starter.jpeg" },
+  { "id": 9, "cat": "स्टार्टर", "name": "छोला चना (ड्राय, फ्राय) / Chola Chana (Dry, Fry)", "price": "70 RS", "desc": "Spiced chickpeas prepared dry or fried", "tags": ["Veg"], "img": "img/chola_chana.jpeg" },
+  { "id": 10, "cat": "स्टार्टर", "name": "तवा शेंगदाना / Tawa Shengdana", "price": "Not Specified", "desc": "Griddle roasted seasoned peanuts", "tags": ["Veg"], "img": "img/tawa_shengdana.jpeg" },
+  { "id": 11, "cat": "स्टार्टर", "name": "चिल्ली कट पकोडा / Chilli Cut Pakoda", "price": "Not Specified", "desc": "Spicy sliced chilli fritters", "tags": ["Veg"], "img": "img/chilli_cut_pakoda.jpeg" },
+  { "id": 12, "cat": "स्टार्टर", "name": "हवाई भेंडी / Hawai Bhendi", "price": "Not Specified", "desc": "Crispy fried ladyfinger specialty", "tags": ["Veg"], "img": "img/hawai_bhendi.jpeg" },
+  { "id": 13, "cat": "स्टार्टर", "name": "मटकी मिसळ फ्राय / Matki Misal Fry", "price": "Not Specified", "desc": "Sprouted moth beans stir-fry", "tags": ["Veg"], "img": "img/matki_misal_fry.jpeg" },
+  { "id": 14, "cat": "स्टार्टर", "name": "सोयाबीन रोस्ट / Soyabean Roast", "price": "Not Specified", "desc": "Roasted seasoned soy chunks", "tags": ["Veg"], "img": "img/soyabean_roast.jpeg" },
+  { "id": 15, "cat": "स्टार्टर", "name": "ठेचा / चिल्लीफ्राय / शेंगदाना चटणी / Thecha / Chilli Fry / Shengdana Chutney", "price": "Not Specified", "desc": "Assorted traditional spicy condiments", "tags": ["Veg"], "img": "img/thecha_chutney.jpeg" },
+  { "id": 16, "cat": "स्टार्टर", "name": "स्पे. दही धपाटे / Sp. Dahi Dhapate", "price": "Not Specified", "desc": "Special spiced flatbread served with yogurt", "tags": ["Veg"], "img": "img/dahi_dhapate.jpeg" },
+  { "id": 17, "cat": "स्टार्टर", "name": "ग्रीनपीस फ्राय / Green Peas Fry", "price": "Not Specified", "desc": "Stir-fried seasoned green peas", "tags": ["Veg"], "img": "img/green_peas_fry.jpeg" },
+  { "id": 18, "cat": "स्टार्टर", "name": "आलु पकोडा / Aloo Pakoda", "price": "Not Specified", "desc": "Traditional potato fritters", "tags": ["Veg"], "img": "img/aloo_pakoda.jpeg" },
 
-
+  { "id": 19, "cat": "स्पेशल पंजाबी डिशेस", "name": "व्हेज कादंबरी / Veg Kadambari", "price": "250 RS", "desc": "Premium mixed vegetable specialty curry", "tags": ["Veg"], "img": "img/veg_kadambari.jpeg" },
+  { "id": 20, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर मराठा / Paneer Maratha", "price": "180 RS", "desc": "Spicy Maharashtrian style paneer curry", "tags": ["Veg"], "img": "img/paneer_maratha.jpeg" },
+  { "id": 21, "cat": "स्पेशल पंजाबी डिशेस", "name": "व्हेज मराठा / Veg Maratha", "price": "160 RS", "desc": "Traditional spicy mixed vegetable gravy", "tags": ["Veg"], "img": "img/veg_maratha.jpeg" },
+  { "id": 22, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर दिलरुबा / Paneer Dilrooba", "price": "190 RS", "desc": "Rich and creamy paneer in a special red gravy", "tags": ["Veg"], "img": "img/paneer_dilrooba.jpeg" },
+  { "id": 23, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर पतियाला / Paneer Patiyala", "price": "180 RS", "desc": "Patiyala style paneer stuffed in papad or rolls", "tags": ["Veg"], "img": "img/paneer_patiyala.jpeg" },
+  { "id": 24, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर मसाला / Paneer Masala", "price": "160 RS", "desc": "Cottage cheese cubes in a spiced onion-tomato gravy", "tags": ["Veg"], "img": "img/paneer_masala.jpeg" },
+  { "id": 25, "cat": "स्पेशल पंजाबी डिशेस", "name": "मिक्स व्हेज / Mix Veg", "price": "150 RS", "desc": "Assorted garden fresh vegetables in Indian spices", "tags": ["Veg"], "img": "img/mix_veg.jpeg" },
+  { "id": 26, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर कढई / Paneer Kadai", "price": "180 RS", "desc": "Paneer cooked with bell peppers and freshly ground spices", "tags": ["Veg"], "img": "img/paneer_kadai.jpeg" },
+  { "id": 27, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर बटर मसाला / Paneer Butter Masala", "price": "150 RS", "desc": "Paneer cooked in a rich, buttery tomato gravy", "tags": ["Veg"], "img": "img/paneer_butter_masala.jpeg" },
+  { "id": 28, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर टिक्का मसाला / Paneer Tikka Masala", "price": "170 RS", "desc": "Grilled paneer chunks in a spicy marinated gravy", "tags": ["Veg"], "img": "img/paneer_tikka_masala.jpeg" },
+  { "id": 29, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर हंडी / Paneer Handi", "price": "180 RS", "desc": "Paneer slow-cooked in a traditional handi style", "tags": ["Veg"], "img": "img/paneer_handi.jpeg" },
+  { "id": 30, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर भुर्जी / Paneer Bhurji", "price": "200 RS", "desc": "Spiced scrambled cottage cheese with onions and chillies", "tags": ["Veg"], "img": "img/paneer_bhurji.jpeg" },
+  { "id": 31, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर मटर / Paneer Mutter", "price": "190 RS", "desc": "Classic combination of paneer and green peas", "tags": ["Veg"], "img": "img/paneer_mutter.jpeg" },
+  { "id": 32, "cat": "स्पेशल पंजाबी डिशेस", "name": "पालक पनीर / Palak Paneer", "price": "170 RS", "desc": "Paneer cubes in a smooth, spiced spinach puree", "tags": ["Veg"], "img": "img/palak_paneer.jpeg" },
+  { "id": 33, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर वऱ्हाडी / Paneer Varadi", "price": "180 RS", "desc": "Spicy Vidarbha style paneer preparation", "tags": ["Veg"], "img": "img/paneer_varadi.jpeg" },
+  { "id": 34, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर पहाडे / Paneer Pahade", "price": "180 RS", "desc": "Paneer prepared in a green, herb-based gravy", "tags": ["Veg"], "img": "img/paneer_pahade.jpeg" },
+  { "id": 35, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर मशरूम मसाला / Paneer Mushroom Masala", "price": "190 RS", "desc": "Paneer and fresh mushrooms cooked together in spices", "tags": ["Veg"], "img": "img/paneer_mushroom_masala.jpeg" },
+  { "id": 36, "cat": "स्पेशल पंजाबी डिशेस", "name": "काजू पनीर मसाला / Kaju Paneer Masala", "price": "180 RS", "desc": "Paneer cooked with rich cashew nuts in gravy", "tags": ["Veg"], "img": "img/kaju_paneer_masala.jpeg" },
+  { "id": 37, "cat": "स्पेशल पंजाबी डिशेस", "name": "काजू मसाला / Kaju Masala", "price": "180 RS", "desc": "Roasted cashews served in a thick, spicy gravy", "tags": ["Veg"], "img": "img/kaju_masala.jpeg" },
+  { "id": 38, "cat": "स्पेशल पंजाबी डिशेस", "name": "काजू करी / Kaju Curry", "price": "150 RS", "desc": "Rich and creamy curry made with whole cashews", "tags": ["Veg"], "img": "img/kaju_curry.jpeg" },
+  { "id": 39, "cat": "स्पेशल पंजाबी डिशेस", "name": "मलाई कोफ्ता / Malai Kofta", "price": "180/200 RS", "desc": "Fried dumplings in creamy gravy (Sweet option: 200/-)", "tags": ["Veg"], "img": "img/malai_kofta.jpeg" },
+  { "id": 40, "cat": "स्पेशल पंजाबी डिशेस", "name": "मेथी मलाई मटर / Methi Malai Muttar", "price": "190 RS", "desc": "Fenugreek, cream and peas in a mild white gravy", "tags": ["Veg"], "img": "img/methi_malai_muttar.jpeg" },
+  { "id": 41, "cat": "स्पेशल पंजाबी डिशेस", "name": "मलाई मेथी / Malai Methi", "price": "150 RS", "desc": "Fresh fenugreek leaves cooked in a rich cream base", "tags": ["Veg"], "img": "img/malai_methi.jpeg" },
+  { "id": 42, "cat": "स्पेशल पंजाबी डिशेस", "name": "शाही पनीर / Shahi Paneer", "price": "180/200 RS", "desc": "Royal paneer dish in white gravy (Sweet option: 200/-)", "tags": ["Veg"], "img": "img/shahi_paneer.jpeg" },
+  { "id": 43, "cat": "स्पेशल पंजाबी डिशेस", "name": "व्हेज राजवाडी / Veg Rajwadi", "price": "200 RS", "desc": "Chef's special royal mixed vegetable curry", "tags": ["Veg"], "img": "img/veg_rajwadi.jpeg" },
+  { "id": 44, "cat": "स्पेशल पंजाबी डिशेस", "name": "व्हेज जयपुरी / Veg Jaypuri", "price": "180 RS", "desc": "Jaipur style vegetables served with roasted papad", "tags": ["Veg"], "img": "img/veg_jaypuri.jpeg" },
+  { "id": 45, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर पसंदा / Paneer Pasanda", "price": "180 RS", "desc": "Stuffed paneer sandwiches in a rich, creamy gravy", "tags": ["Veg"], "img": "img/paneer_pasanda.jpeg" },
+  { "id": 46, "cat": "स्पेशल पंजाबी डिशेस", "name": "पनीर अंगारा / Paneer Angara", "price": "190 RS", "desc": "Smoky flavored spicy paneer dish", "tags": ["Veg"], "img": "img/paneer_angara.jpeg" },
+  { "id": 47, "cat": "स्पेशल पंजाबी डिशेस", "name": "व्हेज अंगारा / Veg Angara", "price": "180 RS", "desc": "Mixed vegetables with a distinct charcoal smoke flavor", "tags": ["Veg"], "img": "img/veg_angara.jpeg" },
+  { "id": 48, "cat": "स्पेशल पंजाबी डिशेस", "name": "मशरूम अंगारा / Mushroom Angara", "price": "200 RS", "desc": "Spicy mushrooms with a smoky finish", "tags": ["Veg"], "img": "img/mushroom_angara.jpeg" },
+  { "id": 49, "cat": "स्पेशल पंजाबी डिशेस", "name": "दमालु पंजाबी / Dumaloo Punjabi", "price": "170 RS", "desc": "Slow-cooked potatoes in a Punjabi spice blend", "tags": ["Veg"], "img": "img/dumaloo_punjabi.jpeg" },
             
-  { "id": 11, "cat": "MOMOS FRIED", "name": "Veg chiz momos fried", "price": "100.00 RS", "desc": "Fried cheese and veg dumplings", "tags": ["Veg"], "img": "img/veg_cheese_momos_fry.jpg" },
-  { "id": 12, "cat": "MOMOS FRIED", "name": "Veg momos fried", "price": "120.00 RS", "desc": "Crispy deep fried vegetable dumplings", "tags": ["Veg"], "img": "img/veg_momos_fry.jpg" },
-  { "id": 13, "cat": "MOMOS FRIED", "name": "Paneer momos fried", "price": "150.00 RS", "desc": "Fried dumplings with paneer stuffing", "tags": ["Veg"], "img": "img/paneer_momos_fry.jpeg" },
-  { "id": 14, "cat": "MOMOS FRIED", "name": "Paneer tikka momos fried", "price": "160.00 RS", "desc": "Tandoori flavored fried paneer dumplings", "tags": ["Veg"], "img": "img/paneer_tikka_fry.jpeg" },
-  { "id": 15, "cat": "MOMOS FRIED", "name": "Con momos fried", "price": "130.00 RS", "desc": "Fried sweet corn dumplings", "tags": ["Veg"], "img": "img/corn_momos_fry.jpg" },
-  { "id": 16, "cat": "MOMOS FRIED", "name": "Con chiz momos fried", "price": "150.00 RS", "desc": "Corn and cheese fried dumplings", "tags": ["Veg"], "img": "img/corn_cheese_fry.jpg" },
-  { "id": 17, "cat": "MOMOS FRIED", "name": "Chicken momos fried", "price": "160.00 RS", "desc": "Fried chicken stuffed dumplings", "tags": ["Non-Veg"], "img": "img/chicken_momos_fry.jpg" },
-  { "id": 18, "cat": "MOMOS FRIED", "name": "Chicken Kurkure momos fried", "price": "180.00 RS", "desc": "Extra crunchy fried chicken momos", "tags": ["Non-Veg"], "img": "img/chicken_kurkure_fry.jpg" },
-  { "id": 19, "cat": "MOMOS FRIED", "name": "Mix veg Kurkure momos fried", "price": "150.00 RS", "desc": "Extra crunchy fried vegetable momos", "tags": ["Veg"], "img": "img/veg_kurkure_fry.jpg" },
-  { "id": 294, "cat": "MOMOS FRIED", "name": "Corn Cheese Momos Fried", "price": "150 RS", "desc": "Crispy fried momos with corn and cheese filling", "tags": ["Veg"], "img": "img/corn_cheese_momos_fried.jpeg" },
-
-
-            
-  { "id": 20, "cat": "MOMOS STEAM", "name": "Veg momos stem", "price": "100.00 RS", "desc": "Healthier steamed vegetable dumplings", "tags": ["Veg"], "img": "img/veg_momos_steam.jpg" },
-  { "id": 21, "cat": "MOMOS STEAM", "name": "Paneer momos stem", "price": "140.00 RS", "desc": "Steamed paneer stuffed dumplings", "tags": ["Veg"], "img": "img/paneer_momos_steam.jpg" },
-  { "id": 22, "cat": "MOMOS STEAM", "name": "Paneer tikka momos stem", "price": "150.00 RS", "desc": "Tandoori flavored steamed dumplings", "tags": ["Veg"], "img": "img/paneer_tikka_steam.jpeg" },
-  { "id": 23, "cat": "MOMOS STEAM", "name": "Con chiz momos stem", "price": "140.00 RS", "desc": "Steamed corn and cheese dumplings", "tags": ["Veg"], "img": "img/corn_cheese_steam.jpg" },
-  { "id": 24, "cat": "MOMOS STEAM", "name": "Chicken momos stem", "price": "150.00 RS", "desc": "Steamed chicken stuffed dumplings", "tags": ["Non-Veg"], "img": "img/chicken_momos_steam.jpg" },
-  { "id": 292, "cat": "MOMOS STEAM", "name": "Veg Cheese Momos Steam ", "price": "120 RS", "desc": "Steamed dumplings stuffed with veggies and cheese", "tags": ["Veg"], "img": "img/veg_cheese_momos_steam.jpeg" },
-  { "id": 293, "cat": "MOMOS STEAM", "name": "Corn Momos Steam", "price": "120 RS", "desc": "Steamed dumplings filled with juicy sweet corn", "tags": ["Veg"], "img": "img/corn_momos_steam.jpeg" },
-
-
-
-            
-  { "id": 25, "cat": "PIZZA", "name": "Golden special pizza", "price": "200.00 RS", "desc": "Chef special premium loaded pizza", "tags": ["Veg"], "img": "img/golden_special_pizza.jpg" },
-  { "id": 26, "cat": "PIZZA", "name": "Plane pizza", "price": "100.00 RS", "desc": "Classic cheese base pizza", "tags": ["Veg"], "img": "img/plane_pizza.jpg" },
-  { "id": 27, "cat": "PIZZA", "name": "Veg chiz pizza", "price": "150.00 RS", "desc": "Cheese pizza with garden fresh veggies", "tags": ["Veg"], "img": "img/veg_cheese_pizza.jpg" },
-  { "id": 28, "cat": "PIZZA", "name": "Con chiz pizza", "price": "120.00 RS", "desc": "Corn and cheese loaded pizza", "tags": ["Veg"], "img": "img/corn_cheese_pizza.jpg" },
-  { "id": 29, "cat": "PIZZA", "name": "Paneer chiz pizza", "price": "180.00 RS", "desc": "Pizza topped with paneer and cheese", "tags": ["Veg"], "img": "img/paneer_cheese_pizza.jpg" },
-  { "id": 30, "cat": "PIZZA", "name": "Paneer tikka chiz pizza", "price": "150.00 RS", "desc": "Tandoori paneer tikka pizza", "tags": ["Veg"], "img": "img/paneer_tikka_pizza.jpg" },
-  { "id": 31, "cat": "PIZZA", "name": "Margeda chiz pizza", "price": "200.00 RS", "desc": "Loaded margherita style cheese pizza", "tags": ["Veg"], "img": "img/margherita_pizza.jpg" },
-  { "id": 32, "cat": "PIZZA", "name": "Onion chiz pizza", "price": "180.00 RS", "desc": "Pizza with caramelized onions and cheese", "tags": ["Veg"], "img": "img/onion_pizza.jpg" },
-  { "id": 33, "cat": "PIZZA", "name": "Chicken chiz pizza", "price": "180.00 RS", "desc": "Pizza topped with chicken and cheese", "tags": ["Non-Veg"], "img": "img/chicken_cheese_pizza.jpg" },
-  // { "id": 34, "cat": "PIZZA", "name": "Chicken pizza", "price": "150.00 RS", "desc": "Classic chicken topping pizza", "tags": ["Non-Veg"], "img": "img/chicken_pizza.jpg" },
-  { "id": 117, "cat": "PIZZA", "name": "Mushroom cheese pizza", "price": "160 RS", "desc": "Pizza topped with fresh mushrooms and extra cheese", "tags": ["Veg"], "img": "img/mushroom_cheese_pizza.jpg" },
-
-  { "id": 35, "cat": "MAGGI & PASTA", "name": "Maggi plane", "price": "80.00 RS", "desc": "Simple comforting maggi noodles", "tags": ["Veg"], "img": "img/plain_maggi.jpg" },
-  { "id": 36, "cat": "MAGGI & PASTA", "name": "Maggi masala", "price": "100.00 RS", "desc": "Maggi with extra spicy masala", "tags": ["Veg"], "img": "img/masala_maggi.jpg" },
-  { "id": 37, "cat": "MAGGI & PASTA", "name": "Chiz maggi", "price": "110.00 RS", "desc": "Maggi noodles with melted cheese", "tags": ["Veg"], "img": "img/cheese_maggi.jpg" },
-  { "id": 38, "cat": "MAGGI & PASTA", "name": "White pasta", "price": "80.00 RS", "desc": "Pasta in creamy white sauce", "tags": ["Veg"], "img": "img/white_pasta.jpg" },
-  { "id": 39, "cat": "MAGGI & PASTA", "name": "Chiz pasta", "price": "100.00 RS", "desc": "Cheesy and creamy italian pasta", "tags": ["Veg"], "img": "img/cheese_pasta.jpg" },
-  { "id": 40, "cat": "MAGGI & PASTA", "name": "Masala pasta", "price": "120.00 RS", "desc": "Pasta cooked with Indian spices", "tags": ["Veg"], "img": "img/masala_pasta.jpg" },
-
-  { "id": 41, "cat": "FRIES & ROLLS", "name": "Aalo crispy", "price": "100.00 RS", "desc": "Crispy deep fried potato snack", "tags": ["Veg"], "img": "img/aloo_crispy.jpg" },
-  { "id": 42, "cat": "FRIES & ROLLS", "name": "Aalo crispy masala", "price": "120.00 RS", "desc": "Crispy potato fries with spices", "tags": ["Veg"], "img": "img/aloo_masala.jpg" },
-  // { "id": 43, "cat": "FRIES & ROLLS", "name": "Aalo roll", "price": "80.00 RS", "desc": "Stuffed potato wrap", "tags": ["Veg"], "img": "img/aloo_roll.jpg" },
-  // { "id": 44, "cat": "FRIES & ROLLS", "name": "Aalo chiz roll masala", "price": "150.00 RS", "desc": "Masala potato roll with cheese", "tags": ["Veg"], "img": "img/aloo_cheese_roll.jpg" },
-  { "id": 45, "cat": "FRIES & ROLLS", "name": "French fries", "price": "80.00 RS", "desc": "Classic salted french fries", "tags": ["Veg"], "img": "img/french_fries.jpg" },
-  { "id": 46, "cat": "FRIES & ROLLS", "name": "Peri Peri french fries", "price": "100.00 RS", "desc": "Spicy peri peri seasoned fries", "tags": ["Veg"], "img": "img/peri_peri_fries.jpg" },
-  { "id": 47, "cat": "FRIES & ROLLS", "name": "Peri Peri chiz french fries", "price": "120.00 RS", "desc": "Cheesy fries with spicy seasoning", "tags": ["Veg"], "img": "img/peri_cheese_fries.jpg" },
-  { "id": 48, "cat": "FRIES & ROLLS", "name": "Chips chat", "price": "80.00 RS", "desc": "Crispy potato chips in chat style", "tags": ["Veg"], "img": "img/chips_chat.jpg" },
-  { "id": 49, "cat": "FRIES & ROLLS", "name": "Chips chat chiz", "price": "100.00 RS", "desc": "Chips chat topped with cheese", "tags": ["Veg"], "img": "img/chips_chat_cheese.jpg" },
-
-  { "id": 50, "cat": "BROWNIES", "name": "Golden special brownies", "price": "180.00 RS", "desc": "Signature house special brownie", "tags": ["Veg"], "img": "img/special_brownie.jpg" },
-  { "id": 51, "cat": "BROWNIES", "name": "Brownies", "price": "120.00 RS", "desc": "Classic chocolate brownie", "tags": ["Veg"], "img": "img/brownie.jpg" },
-  { "id": 52, "cat": "BROWNIES", "name": "Brownies think melt", "price": "130.00 RS", "desc": "Rich melting chocolate brownie", "tags": ["Veg"], "img": "img/think_melt_brownie.jpg" },
-  { "id": 53, "cat": "BROWNIES", "name": "Melt brownies", "price": "150.00 RS", "desc": "Extra melting gooey brownie", "tags": ["Veg"], "img": "img/melt_brownie.jpg" },
-  { "id": 54, "cat": "BROWNIES", "name": "Brownies think melt ice cream", "price": "150.00 RS", "desc": "Melting brownie served with ice cream", "tags": ["Veg"], "img": "img/brownie_ice_cream.jpg" },
-  { "id": 55, "cat": "BROWNIES", "name": "Brownies tauwa garam", "price": "180.00 RS", "desc": "Brownie served on a sizzling hot plate", "tags": ["Veg"], "img": "img/hot_brownie.jpg" },
-
-  { "id": 56, "cat": "NOODLES & RICE", "name": "Veg noodles", "price": "100.00 RS", "desc": "Stir-fried vegetable noodles", "tags": ["Veg"], "img": "img/veg_noodles.jpg" },
-  { "id": 57, "cat": "NOODLES & RICE", "name": "Hakka noodles", "price": "110.00 RS", "desc": "Classic Hakka style noodles", "tags": ["Veg"], "img": "img/hakka_noodles.jpg" },
-  { "id": 58, "cat": "NOODLES & RICE", "name": "Segwan noodles", "price": "120.00 RS", "desc": "Spicy Schezwan noodles", "tags": ["Veg"], "img": "img/schezwan_noodles.jpg" },
-  { "id": 59, "cat": "NOODLES & RICE", "name": "Mancuran noodles", "price": "150.00 RS", "desc": "Noodles with Manchurian flavor", "tags": ["Veg"], "img": "img/manchurian_noodles.jpg" },
-  { "id": 60, "cat": "NOODLES & RICE", "name": "Chicken noodles", "price": "140.00 RS", "desc": "Non-veg noodles with chicken pieces", "tags": ["Non-Veg"], "img": "img/chicken_noodles.jpg" },
-  { "id": 61, "cat": "NOODLES & RICE", "name": "Mix paneer noodles", "price": "180.00 RS", "desc": "Rich noodles with paneer mix", "tags": ["Veg"], "img": "img/paneer_noodles.jpg" },
-  { "id": 62, "cat": "NOODLES & RICE", "name": "Veg rice", "price": "120.00 RS", "desc": "Healthy stir-fried vegetable rice", "tags": ["Veg"], "img": "img/veg_rice.jpg" },
-  { "id": 63, "cat": "NOODLES & RICE", "name": "Paneer rice", "price": "150.00 RS", "desc": "Fried rice with paneer cubes", "tags": ["Veg"], "img": "img/paneer_rice.jpg" },
-  { "id": 64, "cat": "NOODLES & RICE", "name": "Fried rice", "price": "100.00 RS", "desc": "Classic stir-fried rice", "tags": ["Veg"], "img": "img/fried_rice.jpg" },
-  { "id": 65, "cat": "NOODLES & RICE", "name": "Mancuran rice", "price": "140.00 RS", "desc": "Manchurian gravy rice", "tags": ["Veg"], "img": "img/manchurian_rice.jpg" },
-  { "id": 66, "cat": "NOODLES & RICE", "name": "Chicken rice", "price": "150.00 RS", "desc": "Fried rice with chicken chunks", "tags": ["Non-Veg"], "img": "img/chicken_rice.jpg" },
-  { "id": 67, "cat": "NOODLES & RICE", "name": "Anda rice", "price": "80.00 RS", "desc": "Egg fried rice", "tags": ["Non-Veg"], "img": "img/egg_rice.jpg" },
-  { "id": 68, "cat": "NOODLES & RICE", "name": "Paneer chilli", "price": "150.00 RS", "desc": "Spicy paneer in chili sauce", "tags": ["Veg"], "img": "img/paneer_chilli.jpg" },
-  { "id": 69, "cat": "NOODLES & RICE", "name": "Soyabean chili", "price": "140.00 RS", "desc": "Soyabean chunks in spicy sauce", "tags": ["Veg"], "img": "img/soyabean_chilli.jpg" },
-  { "id": 303, "cat": "NOODLES & RICE", "name": "Paneer Noodles / पनीर नूडल्स", "price": "150 RS", "desc": "Stir-fried noodles with soft paneer cubes", "tags": ["Veg"], "img": "img/paneer_noodles.jpeg" },
-  { "id": 304, "cat": "NOODLES & RICE", "name": "Chicken Chilli / चिकन चिली", "price": "160 RS", "desc": "Spicy and tangy stir-fried chicken chunks", "tags": ["Non-Veg"], "img": "img/chicken_chilli_special.jpeg" },
-
-
-            
-  { "id": 70, "cat": "SHAKES & COFFEE", "name": "Golden special shake", "price": "120.00 RS", "desc": "Premium house blend shake", "tags": ["Veg"], "img": "img/special_shake.jpg" },
-  { "id": 71, "cat": "SHAKES & COFFEE", "name": "Strawberry shake", "price": "100.00 RS", "desc": "Creamy strawberry thick shake", "tags": ["Veg"], "img": "img/strawberry_shake.jpg" },
-  { "id": 72, "cat": "SHAKES & COFFEE", "name": "Pineapple shake", "price": "80.00 RS", "desc": "Refreshing pineapple thick shake", "tags": ["Veg"], "img": "img/pineapple_shake.jpg" },
-  { "id": 73, "cat": "SHAKES & COFFEE", "name": "Mango shake", "price": "80.00 RS", "desc": "Fresh mango thick shake", "tags": ["Veg"], "img": "img/mango_shake.jpg" },
-  { "id": 74, "cat": "SHAKES & COFFEE", "name": "Chocolate shake", "price": "100.00 RS", "desc": "Decadent chocolate thick shake", "tags": ["Veg"], "img": "img/chocolate_shake.jpg" },
-  { "id": 75, "cat": "SHAKES & COFFEE", "name": "Kit kat shake", "price": "100.00 RS", "desc": "Shake with crunchy Kit Kat pieces", "tags": ["Veg"], "img": "img/kitkat_shake.jpg" },
-  { "id": 76, "cat": "SHAKES & COFFEE", "name": "Oreo shake", "price": "100.00 RS", "desc": "Shake with crushed Oreo cookies", "tags": ["Veg"], "img": "img/oreo_shake.jpg" },
-  { "id": 77, "cat": "SHAKES & COFFEE", "name": "Cold coffee", "price": "60.00 RS", "desc": "Refreshing chilled blended coffee", "tags": ["Veg"], "img": "img/cold_coffee.jpg" },
-  { "id": 78, "cat": "SHAKES & COFFEE", "name": "Thik crush coffee", "price": "100.00 RS", "desc": "Extra thick crushed ice coffee", "tags": ["Veg"], "img": "img/thick_coffee.jpg" },
-  { "id": 79, "cat": "SHAKES & COFFEE", "name": "Butter scotch shake", "price": "100.00 RS", "desc": "Crunchy butterscotch flavored shake", "tags": ["Veg"], "img": "img/butterscotch_shake.jpg" },
-  { "id": 298, "cat": "SHAKES & COFFEE", "name": "Orange Shake / ऑरेंज शेक", "price": "80 RS", "desc": "Refreshing citrus flavored milk shake", "tags": ["Veg"], "img": "img/orange_shake.jpeg" },
-  { "id": 299, "cat": "SHAKES & COFFEE", "name": "Litchi Shake / लीची शेक", "price": "100 RS", "desc": "Sweet and exotic litchi flavored shake", "tags": ["Veg"], "img": "img/litchi_shake.jpeg" },
-  { "id": 300, "cat": "SHAKES & COFFEE", "name": "Chocolate Crush / चॉकलेट क्रश", "price": "100 RS", "desc": "Crunchy chocolate bits blended in a rich shake", "tags": ["Veg"], "img": "img/chocolate_crush.jpeg" },
-  { "id": 295, "cat": "SHAKES & COFFEE", "name": "Plain Coffee / प्लेन कॉफी", "price": "30 RS", "desc": "Simple and refreshing classic coffee", "tags": ["Veg"], "img": "img/plain_coffee.jpeg" },
-  { "id": 296, "cat": "SHAKES & COFFEE", "name": "Cold Coffee Thick / कोल्ड कॉफी थिक", "price": "100 RS", "desc": "Rich and creamy thick cold coffee", "tags": ["Veg"], "img": "img/cold_coffee_thick.jpeg" },
-  { "id": 297, "cat": "SHAKES & COFFEE", "name": "Jamun Shot / जांभूळ शॉट", "price": "30 RS", "desc": "Tangy and refreshing jamun fruit drink", "tags": ["Veg"], "img": "img/jamun_shot.jpeg" },
-  { "id": 301, "cat": "SHAKES & COFFEE", "name": "Hot Coffee / हॉट कॉफी", "price": "30 RS", "desc": "Classic warm and energetic coffee", "tags": ["Veg"], "img": "img/hot_coffee.jpeg" },
-  { "id": 302, "cat": "SHAKES & COFFEE", "name": "Blueberry Shake / ब्लूबेरी शेक", "price": "100 RS", "desc": "Delicious shake made with sweet blueberries", "tags": ["Veg"], "img": "img/blueberry_shake.jpeg" },
-
-
-
-
-            
-  { "id": 80, "cat": "DOSA", "name": "Plane dosa", "price": "70.00 RS", "desc": "Crispy South Indian rice crepe", "tags": ["Veg"], "img": "img/plain_dosa.jpg" },
-  { "id": 81, "cat": "DOSA", "name": "Veg dosa", "price": "80.00 RS", "desc": "Dosa with vegetable stuffing", "tags": ["Veg"], "img": "img/veg_dosa.jpg" },
-  { "id": 82, "cat": "DOSA", "name": "Onion uthappa dosa", "price": "100.00 RS", "desc": "Thick pancake with onion toppings", "tags": ["Veg"], "img": "img/onion_uthappa.jpg" },
-  { "id": 83, "cat": "DOSA", "name": "Paneer dosa", "price": "150.00 RS", "desc": "Dosa with spiced paneer filling", "tags": ["Veg"], "img": "img/paneer_dosa.jpg" },
-  { "id": 84, "cat": "DOSA", "name": "Veg chiz dosa", "price": "130.00 RS", "desc": "Cheese and vegetable stuffed dosa", "tags": ["Veg"], "img": "img/cheese_dosa.jpg" },
-  { "id": 85, "cat": "DOSA", "name": "Masala dosa", "price": "80.00 RS", "desc": "Dosa with spiced potato filling", "tags": ["Veg"], "img": "img/masala_dosa.jpg" },
-  { "id": 86, "cat": "DOSA", "name": "Idli Sambar", "price": "80.00 RS", "desc": "Steamed rice cakes with lentil soup", "tags": ["Veg"], "img": "img/idli_sambar.jpg" },
-  { "id": 87, "cat": "DOSA", "name": "Sambhar vada", "price": "120.00 RS", "desc": "Fried lentil donuts with sambar", "tags": ["Veg"], "img": "img/vada_sambar.jpg" },
-
-        
-  { "id": 88, "cat": "ROLL", "name": "Veg roll", "price": "30 RS", "desc": "Fresh vegetable wrap with spices", "tags": ["Veg"], "img": "img/veg_roll.jpg" },
-  { "id": 89, "cat": "ROLL", "name": "Veg chiz roll", "price": "60 RS", "desc": "Vegetable roll with melted cheese", "tags": ["Veg"], "img": "img/veg_cheese_roll.jpg" },
-  { "id": 90, "cat": "ROLL", "name": "Paneer plane roll", "price": "60 RS", "desc": "Simple paneer stuffed wrap", "tags": ["Veg"], "img": "img/paneer_plain_roll.jpg" },
-  { "id": 91, "cat": "ROLL", "name": "Paneer chiz crispy roll", "price": "100 RS", "desc": "Crunchy paneer and cheese specialty roll", "tags": ["Veg"], "img": "img/paneer_cheese_crispy_roll.jpg" },
-  { "id": 92, "cat": "ROLL", "name": "Plane manchurian roll", "price": "30 RS", "desc": "Wrap stuffed with vegetable manchurian balls", "tags": ["Veg"], "img": "img/plain_manchurian_roll.jpg" },
-  { "id": 93, "cat": "ROLL", "name": "Manchurian chiz roll", "price": "60 RS", "desc": "Manchurian roll with creamy cheese", "tags": ["Veg"], "img": "img/manchurian_cheese_roll.jpg" },
-  { "id": 94, "cat": "ROLL", "name": "Mancuran chiz crispy roll", "price": "100 RS", "desc": "Extra crispy manchurian and cheese roll", "tags": ["Veg"], "img": "img/manchurian_crispy_roll.jpg" },
-  { "id": 95, "cat": "ROLL", "name": "Chicken plain roll", "price": "60 RS", "desc": "Simple spiced chicken wrap", "tags": ["Non-Veg"], "img": "img/chicken_plain_roll.jpg" },
-  { "id": 96, "cat": "ROLL", "name": "Chicken chiz roll", "price": "80 RS", "desc": "Chicken roll with loaded cheese", "tags": ["Non-Veg"], "img": "img/chicken_cheese_roll.jpg" },
-  { "id": 97, "cat": "ROLL", "name": "Chicken chiz crispy roll", "price": "100 RS", "desc": "Crunchy fried chicken and cheese roll", "tags": ["Non-Veg"], "img": "img/chicken_crispy_roll.jpg" },
-  { "id": 98, "cat": "ROLL", "name": "Noodles plane roll", "price": "30 RS", "desc": "Stir-fried noodles wrapped in a roll", "tags": ["Veg"], "img": "img/noodles_plain_roll.jpg" },
-  { "id": 99, "cat": "ROLL", "name": "Noodles chiz roll", "price": "60 RS", "desc": "Noodles roll with extra cheese", "tags": ["Veg"], "img": "img/noodles_cheese_roll.jpg" },
-  { "id": 100, "cat": "ROLL", "name": "Noodles crispy roll", "price": "80 RS", "desc": "Crunchy noodles stuffed roll", "tags": ["Veg"], "img": "img/noodles_crispy_roll.jpg" },
-  { "id": 101, "cat": "ROLL", "name": "Anda plane roll", "price": "30 RS", "desc": "Classic egg wrap with light spices", "tags": ["Non-Veg"], "img": "img/egg_plain_roll.jpg" },
-  { "id": 102, "cat": "ROLL", "name": "Anda chiz roll", "price": "60 RS", "desc": "Egg roll with melted cheese", "tags": ["Non-Veg"], "img": "img/egg_cheese_roll.jpg" },
-  { "id": 103, "cat": "ROLL", "name": "Anda chiz crispy roll", "price": "80 RS", "desc": "Crunchy egg and cheese roll", "tags": ["Non-Veg"], "img": "img/egg_cheese_crispy_roll.jpg" },
-  { "id": 104, "cat": "ROLL", "name": "Anda noodles roll", "price": "80 RS", "desc": "Unique combo of egg and noodles in a roll", "tags": ["Non-Veg"], "img": "img/egg_noodles_roll.jpg" },
-  { "id": 105, "cat": "ROLL", "name": "Anda noodles chiz roll", "price": "100 RS", "desc": "Egg and noodles roll with extra cheese", "tags": ["Non-Veg"], "img": "img/egg_noodles_cheese_roll.jpg" },
-  { "id": 106, "cat": "ROLL", "name": "Anda chicken roll", "price": "80 RS", "desc": "Egg wrap stuffed with spiced chicken", "tags": ["Non-Veg"], "img": "img/egg_chicken_roll.jpg" },
-  { "id": 107, "cat": "ROLL", "name": "Anda chicken chiz roll", "price": "100 RS", "desc": "Chicken and egg roll with cheese", "tags": ["Non-Veg"], "img": "img/egg_chicken_cheese_roll.jpg" },
-  { "id": 108, "cat": "ROLL", "name": "Anda manchurian roll", "price": "60 RS", "desc": "Combination of egg and manchurian balls", "tags": ["Non-Veg"], "img": "img/egg_manchurian_roll.jpg" },
-  { "id": 109, "cat": "ROLL", "name": "Anda manchurian chiz roll", "price": "80 RS", "desc": "Egg manchurian roll with cheese", "tags": ["Non-Veg"], "img": "img/egg_manch_cheese_roll.jpg" },
-  { "id": 110, "cat": "ROLL", "name": "Anda paneer roll", "price": "90 RS", "desc": "Egg wrap with spiced paneer cubes", "tags": ["Non-Veg"], "img": "img/egg_paneer_roll.jpg" },
-  { "id": 111, "cat": "ROLL", "name": "Anda paneer chiz roll", "price": "100 RS", "desc": "Egg and paneer roll with melted cheese", "tags": ["Non-Veg"], "img": "img/egg_paneer_cheese_roll.jpg" },
-  { "id": 112, "cat": "ROLL", "name": "Anda paneer chiz crispy roll", "price": "130 RS", "desc": "Crunchy specialty with egg, paneer and cheese", "tags": ["Non-Veg"], "img": "img/egg_paneer_crispy_roll.jpg" },
-  { "id": 113, "cat": "ROLL", "name": "Anda chicken chiz crispy roll", "price": "130 RS", "desc": "Crunchy specialty with egg, chicken and cheese", "tags": ["Non-Veg"], "img": "img/egg_chicken_crispy_roll.jpg" },
-  { "id": 114, "cat": "ROLL", "name": "Aalu plane roll", "price": "30 RS", "desc": "Simple potato stuffed roll", "tags": ["Veg"], "img": "img/aloo_plain_roll.jpg" },
-  { "id": 115, "cat": "ROLL", "name": "Aalu chiz roll", "price": "60 RS", "desc": "Potato roll with melted cheese", "tags": ["Veg"], "img": "img/aloo_cheese_roll.jpg" },
-  { "id": 116, "cat": "ROLL", "name": "Aalu chiz crispy roll", "price": "80 RS", "desc": "Crunchy spiced potato and cheese roll", "tags": ["Veg"], "img": "img/aloo_cheese_crispy_roll.jpg" },
-
-
-  { "id": 118, "cat": "DESSERTS", "name": "Lassi", "price": "30 RS", "desc": "Traditional sweet yogurt drink", "tags": ["Veg"], "img": "img/lassi.jpg" },
-  { "id": 119, "cat": "DESSERTS", "name": "Shrikhand", "price": "30 RS", "desc": "Sweet thickened strained yogurt", "tags": ["Veg"], "img": "img/shrikhand.jpg" },
-  { "id": 120, "cat": "DESSERTS", "name": "Basundi", "price": "30 RS", "desc": "Sweet thickened milk with dry fruits", "tags": ["Veg"], "img": "img/basundi.jpg" },
-  { "id": 121, "cat": "DESSERTS", "name": "Amul ice cream", "price": "As per MRP", "desc": "Assorted flavors of Amul ice cream", "tags": ["Veg"], "img": "img/amul_ice_cream.jpg" },
-
-
-
-
-            
-  { "id": 122, "cat": "BEVERAGES", "name": "Water bottle (Large)", "price": "20 RS", "desc": "Chilled packaged drinking water", "tags": ["Veg"], "img": "img/water_bottle_20.jpg" },
-  { "id": 123, "cat": "BEVERAGES", "name": "Water bottle (Small)", "price": "10 RS", "desc": "Small packaged drinking water", "tags": ["Veg"], "img": "img/water_bottle_10.jpg" },
-  { "id": 124, "cat": "BEVERAGES", "name": "Campa kola", "price": "As per MRP", "desc": "Refreshing Campa Kola soft drink", "tags": ["Veg"], "img": "img/campa_kola.jpg" },
-
-
-
-
-
-
-
-
-
-
-            
-        
-        ];
+];
         
         // Cart functionality
         let cart = [];
